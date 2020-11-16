@@ -1,0 +1,176 @@
+2020-11-15 01:26:04.622  WARN 13072 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s574ms418µs100ns).
+2020-11-15 15:35:17.934  WARN 13072 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14h9m32s124ms456µs400ns).
+2020-11-15 16:07:11.641  INFO 13072 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 16:07:11.661  INFO 13072 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-15 16:07:11.663  INFO 13072 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-15 16:07:11.695  INFO 13072 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-11-15 16:07:18.497  INFO 4488 --- [main] n.f.druppelapi.DruppelapiApplication     : Starting DruppelapiApplication on DESKTOP-LIOP2SO with PID 4488 (C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi\target\classes started by Cherif in C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi)
+2020-11-15 16:07:18.507  INFO 4488 --- [main] n.f.druppelapi.DruppelapiApplication     : No active profile set, falling back to default profiles: default
+2020-11-15 16:07:19.525  INFO 4488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-15 16:07:19.639  INFO 4488 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 109ms. Found 3 JPA repository interfaces.
+2020-11-15 16:07:20.198  INFO 4488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-15 16:07:20.214  INFO 4488 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-15 16:07:20.214  INFO 4488 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-15 16:07:20.385  INFO 4488 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-15 16:07:20.385  INFO 4488 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1819 ms
+2020-11-15 16:07:20.555  INFO 4488 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-15 16:07:20.641  WARN 4488 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-15 16:07:20.785 DEBUG 4488 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-11-15 16:07:20.820 DEBUG 4488 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2020-11-15 16:07:20.839 DEBUG 4488 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-11-15 16:07:20.851 DEBUG 4488 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-11-15 16:07:20.894  INFO 4488 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-15 16:07:21.011  INFO 4488 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-15 16:07:21.018  INFO 4488 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-11-15 16:07:21.263  INFO 4488 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-15 16:07:21.822  INFO 4488 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 16:07:22.218  INFO 4488 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-11-15 16:07:22.225  INFO 4488 --- [main] n.f.druppelapi.DruppelapiApplication     : Started DruppelapiApplication in 4.183 seconds (JVM running for 5.229)
+2020-11-15 16:14:03.160  INFO 4488 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-15 16:14:03.164  INFO 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-15 16:14:03.165 DEBUG 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-11-15 16:14:03.201 DEBUG 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-11-15 16:14:03.201  INFO 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2020-11-15 16:14:03.227 DEBUG 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=/garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:14:03.237 DEBUG 4488 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:14:03.476 DEBUG 4488 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:14:03.476 DEBUG 4488 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: /garden/esp-15730009/pump"]
+2020-11-15 16:14:03.519 DEBUG 4488 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:14:57.000 DEBUG 4488 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=/garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:14:57.001 DEBUG 4488 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:14:57.015 DEBUG 4488 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:14:57.015 DEBUG 4488 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: /garden/esp-15730009/pump"]
+2020-11-15 16:14:57.017 DEBUG 4488 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:16:07.087 DEBUG 4488 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=/garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:16:07.088 DEBUG 4488 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:16:07.098 DEBUG 4488 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:16:07.098 DEBUG 4488 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: /garden/esp-15730009/pump"]
+2020-11-15 16:16:07.099 DEBUG 4488 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:29:13.049  INFO 11412 --- [main] n.f.druppelapi.DruppelapiApplication     : Starting DruppelapiApplication on DESKTOP-LIOP2SO with PID 11412 (C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi\target\classes started by Cherif in C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi)
+2020-11-15 16:29:13.051  INFO 11412 --- [main] n.f.druppelapi.DruppelapiApplication     : No active profile set, falling back to default profiles: default
+2020-11-15 16:29:13.624  INFO 11412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-15 16:29:13.682  INFO 11412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52ms. Found 3 JPA repository interfaces.
+2020-11-15 16:29:14.044  INFO 11412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-15 16:29:14.048  INFO 11412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-15 16:29:14.048  INFO 11412 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-15 16:29:14.134  INFO 11412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-15 16:29:14.134  INFO 11412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2020-11-15 16:29:14.301  INFO 11412 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-15 16:29:14.356  WARN 11412 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-15 16:29:14.440 DEBUG 11412 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-11-15 16:29:14.476 DEBUG 11412 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2020-11-15 16:29:14.495 DEBUG 11412 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-11-15 16:29:14.498 DEBUG 11412 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-11-15 16:29:14.524  INFO 11412 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-15 16:29:14.585  INFO 11412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-15 16:29:14.585  INFO 11412 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-11-15 16:29:14.761  INFO 11412 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-15 16:29:15.248  INFO 11412 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 16:29:15.614  INFO 11412 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-11-15 16:29:15.623  INFO 11412 --- [main] n.f.druppelapi.DruppelapiApplication     : Started DruppelapiApplication in 2.934 seconds (JVM running for 3.725)
+2020-11-15 16:30:01.530  INFO 11412 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-15 16:30:01.530  INFO 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-15 16:30:01.531 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-11-15 16:30:01.540 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-11-15 16:30:01.540  INFO 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-11-15 16:30:01.547 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=/garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:30:01.552 DEBUG 11412 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:30:01.594 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:30:01.595 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: /garden/esp-15730009/pump"]
+2020-11-15 16:30:01.604 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:30:31.615 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:30:31.616 DEBUG 11412 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:30:31.625 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:30:31.625 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:30:31.627 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:30:47.991 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:30:47.992 DEBUG 11412 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:30:48.005 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:30:48.006 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:30:48.008 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:30:49.590 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:30:49.590 DEBUG 11412 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:30:49.598 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:30:49.598 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:30:49.600 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:30:50.584 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:30:50.584 DEBUG 11412 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:30:50.596 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:30:50.596 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:30:50.597 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:30:51.813 DEBUG 11412 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:30:51.814 DEBUG 11412 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:30:51.822 DEBUG 11412 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:30:51.822 DEBUG 11412 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:30:51.823 DEBUG 11412 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:31:32.561 DEBUG 11412 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:31:32.561 DEBUG 11412 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:31:32.567 DEBUG 11412 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:31:32.567 DEBUG 11412 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:31:32.568 DEBUG 11412 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:39:02.720 DEBUG 11412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:39:02.720 DEBUG 11412 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:39:02.726 DEBUG 11412 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:39:02.726 DEBUG 11412 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:39:02.728 DEBUG 11412 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:39:14.181 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:39:14.182 DEBUG 11412 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:39:14.187 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:39:14.188 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:39:14.190 DEBUG 11412 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:39:31.591 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:39:31.592 DEBUG 11412 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:39:31.599 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:39:31.599 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:39:31.600 DEBUG 11412 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:39:40.230 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:39:40.231 DEBUG 11412 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:39:40.242 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:39:40.243 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:39:40.244 DEBUG 11412 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:40:12.946 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:40:12.947 DEBUG 11412 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:40:12.962 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:40:12.963 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:40:12.966 DEBUG 11412 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:40:20.201 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:40:20.202 DEBUG 11412 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:40:20.211 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:40:20.211 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:40:20.212 DEBUG 11412 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 16:43:52.230  INFO 16396 --- [main] n.f.druppelapi.DruppelapiApplication     : Starting DruppelapiApplication on DESKTOP-LIOP2SO with PID 16396 (C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi\target\classes started by Cherif in C:\Users\Cherif\Documents\mini projecten portfolio\druppelapi)
+2020-11-15 16:43:52.235  INFO 16396 --- [main] n.f.druppelapi.DruppelapiApplication     : No active profile set, falling back to default profiles: default
+2020-11-15 16:43:52.880  INFO 16396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-11-15 16:43:52.928  INFO 16396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44ms. Found 3 JPA repository interfaces.
+2020-11-15 16:43:53.244  INFO 16396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-11-15 16:43:53.252  INFO 16396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-11-15 16:43:53.252  INFO 16396 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-15 16:43:53.325  INFO 16396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-11-15 16:43:53.330  INFO 16396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2020-11-15 16:43:53.547  INFO 16396 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-15 16:43:53.644  WARN 16396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-11-15 16:43:53.797 DEBUG 16396 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-11-15 16:43:53.834 DEBUG 16396 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 13 mappings in 'requestMappingHandlerMapping'
+2020-11-15 16:43:53.852 DEBUG 16396 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-11-15 16:43:53.858 DEBUG 16396 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-11-15 16:43:53.885  INFO 16396 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-11-15 16:43:53.951  INFO 16396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-11-15 16:43:53.952  INFO 16396 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-11-15 16:43:54.127  INFO 16396 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-11-15 16:43:54.627  INFO 16396 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 16:43:54.862  INFO 16396 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-11-15 16:43:54.875  INFO 16396 --- [main] n.f.druppelapi.DruppelapiApplication     : Started DruppelapiApplication in 2.962 seconds (JVM running for 3.829)
+2020-11-15 16:44:18.394  INFO 16396 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-15 16:44:18.395  INFO 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-11-15 16:44:18.396 DEBUG 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-11-15 16:44:18.402 DEBUG 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-11-15 16:44:18.405  INFO 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-11-15 16:44:18.415 DEBUG 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/mqtt/post?content=pumpON&topic=garden/esp-15730009/pump", parameters={masked}
+2020-11-15 16:44:18.419 DEBUG 16396 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to nl.fontys.druppelapi.controller.MqttControllerTest#postMqtt(String, String)
+2020-11-15 16:44:18.488 DEBUG 16396 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2020-11-15 16:44:18.489 DEBUG 16396 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Published to: garden/esp-15730009/pump"]
+2020-11-15 16:44:18.503 DEBUG 16396 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-11-15 17:08:07.110  INFO 16396 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-11-15 17:08:07.110  INFO 16396 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-15 17:08:07.110  INFO 16396 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-11-15 17:08:07.125  INFO 16396 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
